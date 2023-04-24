@@ -1,11 +1,14 @@
 import axios from "axios";
 import { useState } from "react";
 import { Card } from "./HomeStyled";
+import { log } from "console";
 
 export function Home() {
   const [password, setPassword] = useState("");
   const [inputValue, setInputValue] = useState("");
   const API_URL = process.env.VITE_APP_BACK_END_URL;
+  console.log(API_URL);
+  
 
   const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setInputValue(event.target.value);
