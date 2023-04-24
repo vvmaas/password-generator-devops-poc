@@ -39,7 +39,7 @@ export function Home() {
           type="number"
           id="tamanho"
           name="tamanho"
-          placeholder="Enter password length very carefully"
+          placeholder="Enter password length very very carefully"
           value={inputValue}
           onChange={handleInputChange}
         />
