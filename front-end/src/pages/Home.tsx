@@ -33,7 +33,7 @@ export function Home() {
 
   return (
     <Card>
-      <h1>Password Generator</h1>
+      <h1>Careful Password Generator</h1>
       <div>
         <input
           type="number"
