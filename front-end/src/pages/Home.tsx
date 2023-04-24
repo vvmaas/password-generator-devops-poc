@@ -1,7 +1,6 @@
 import axios from "axios";
 import { useState } from "react";
 import { Card } from "./HomeStyled";
-import { log } from "console";
 
 export function Home() {
   const [password, setPassword] = useState("");
